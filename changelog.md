@@ -8,6 +8,9 @@
 - Added missing keywords to ID's 614, 831, 925, 2039, 2663, 2732, 3923, 4092, 4166 and 4774.
 - Might inspiration Energized should now have the correct color code.
 - Fixed broken links to glossary entry `Terrified`.
+**Cyclopedia.stringtable**:
+- Added missing `line-height` tag in ID `679`.
+- Added support for the keywords `Armor Rating` and `Penetrate`.
 
 
 ### 0.5.2
