@@ -15,6 +15,9 @@
 - Added a lot of missing entries.
 **Items.stringtable**:
 - Added a few missing font tags to multiple entries.
+**Statuseffects.stringtable**:
+- Added missing `line-height` tags.
+- Fixed a few incorrectly applied font stylizations.
 
 ### 0.5.2
 - Updated the mod for game build `1.2.0.0008`.
