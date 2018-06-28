@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3285</EntryCount>
+  <EntryCount>3288</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -126,7 +126,7 @@
     </Entry>
     <Entry>
       <ID>279</ID>
-      <DefaultText>Caster draws upon their life force to gain the Swift Inspiration at the cost their own Health draining over time.</DefaultText>
+      <DefaultText>Caster draws upon their life force to gain the Swift Inspiration and Action Speed at the cost their own Health draining over time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -541,7 +541,7 @@
     </Entry>
     <Entry>
       <ID>607</ID>
-      <DefaultText>Creates a ghostly double of the caster that causes Shock damage to enemies it strikes.</DefaultText>
+      <DefaultText>Creates a ghostly double of the caster that copies the caster's weapons and appearance.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
