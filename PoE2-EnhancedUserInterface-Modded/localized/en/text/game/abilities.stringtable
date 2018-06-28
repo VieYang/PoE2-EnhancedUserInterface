@@ -216,6 +216,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>327</ID>
+      <DefaultText>&lt;line-height=100%&gt;Fills the paladin and their allies with unshakable confidence, increasing their &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>352</ID>
       <DefaultText>&lt;line-height=100%&gt;The druid's knowledge of the forces of nature allows them to automatically inflict additional &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage when spiritshifted.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -653,12 +658,6 @@
     <Entry>
       <ID>810</ID>
       <DefaultText>&lt;line-height=100%&gt;Emboldens allies in the area of effect, giving bonuses to &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>811</ID>
-      <DefaultText>&lt;line-height=100%&gt;Attacks enemies in seven directions around the chanter with bolts of &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;freezing&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; ice. &lt;/line-height&gt;</DefaultText>
-      <DefaultText>&lt;line-height=100%&gt;Attacks enemies in seven directions around the chanter with bolts of freezing ice.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
