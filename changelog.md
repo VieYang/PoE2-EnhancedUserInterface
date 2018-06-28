@@ -11,7 +11,10 @@
 **Cyclopedia.stringtable**:
 - Added missing `line-height` tag in ID `679`.
 - Added support for the keywords `Armor Rating` and `Penetrate`.
-
+**Gui.stringtable**:
+- Added a lot of missing entries.
+**Items.stringtable**:
+- Added a few missing font tags to multiple entries.
 
 ### 0.5.2
 - Updated the mod for game build `1.2.0.0008`.
