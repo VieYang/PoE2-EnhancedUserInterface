@@ -1,0 +1,433 @@
+<div class="box-h2">
+  <h2>I. Introduction</h2>
+</div>
+<div class="box">
+  <p>This mod changes how afflictions and inspirations will be displayed within the game by colorizing the text. The mod also adds a rank indicator to afflictions and inspirations so that the player more easily can identify what buffs/debuffs to prioritize while playing.</p>
+  <p>The goal of this mod is to enhance the user experience and make a fairly opaque part of the game more transparent.</p>
+  <p>This mod does <strong>not</strong> change the way spells and abilities work.</p>
+</div>
+<div class="box-h2">
+  <h2>II. General information</h2>
+</div>
+<div class="box">
+  <div class="blackbox">
+    <h3>Files modified by this mod</h3>
+  </div>
+  <p></p>
+  <div class="table">
+    <div class="row">
+      <div class="cell-200">Path</div>
+      <div class="cell-30"></div>
+      <div class="cell-max">Filename</div>
+    </div>
+    <div class="row">
+      <div class="cell">/localized/en/text/game/</div>
+      <div class="cell"></div>
+      <div class="cell">abilities.stringtable</div>
+    </div>
+    <div class="row">
+      <div class="cell">/localized/en/text/game/</div>
+      <div class="cell"></div>
+      <div class="cell">cyclopedia.stringtable</div>
+    </div>
+  </div>
+  <br>
+  <div class="blackbox">
+    <h3>Color codes &amp; debug names</h3>
+  </div>
+  <br>
+  <br>
+  <div class="table">
+    <div class="row">
+      <div class="cell-200">Attribute</div>
+      <div class="cell-arrow"></div>
+      <div class="cell-200">Color</div>
+      <div class="cell-30"></div>
+      <div class="cell-max">Debug name</div>
+    </div>
+    <div class="row">
+      <div class="cell">Constitution</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-color" style="background-color: #f7b733;">#f7b733</div>
+      <div class="cell"></div>
+      <div class="cell">attribute_constitution</div>
+    </div>
+    <div class="row">
+      <div class="cell">Dexterity</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-color" style="background-color: #72da26;">#72da26</div>
+      <div class="cell"></div>
+      <div class="cell">attribute_dexterity</div>
+    </div>
+    <div class="row">
+      <div class="cell">Intellect</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-color" style="background-color: #00a4ff;">#00a4ff</div>
+      <div class="cell"></div>
+      <div class="cell">attribute_intellect</div>
+    </div>
+    <div class="row">
+      <div class="cell">Might</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-color" style="background-color: #ff4800;">#ff4800</div>
+      <div class="cell"></div>
+      <div class="cell">attribute_might</div>
+    </div>
+    <div class="row">
+      <div class="cell">Perception</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-color" style="background-color: #ca58ff;">#ca58ff</div>
+      <div class="cell"></div>
+      <div class="cell">attribute_perception</div>
+    </div>
+    <div class="row">
+      <div class="cell">Resolve</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-color" style="background-color: #30d3d5;">#30d3d5</div>
+      <div class="cell"></div>
+      <div class="cell">attribute_resolve</div>
+    </div>
+  </div>
+  <br>
+  <div class="blackbox">
+    <h3>generic xml-tags</h3>
+  </div>
+  <br>
+  <br>
+  <div class="table">
+    <div class="row">
+      <div class="cell-200">Attribute</div>
+      <div class="cell-arrow"></div>
+      <div class="cell-max">XML-tag</div>
+    </div>
+    <div class="row">
+      <div class="cell">Constitution</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-code">&lt;#f7b733&gt;Constitution&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;</div>
+    </div>
+    <div class="row">
+      <div class="cell">Dexterity</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-code">&lt;#72da26&gt;Dexterity&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;</div>
+    </div>
+    <div class="row">
+      <div class="cell">Intellect</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-code">&lt;#00a4ff&gt;Intellect&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;</div>
+    </div>
+    <div class="row">
+      <div class="cell">Might</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-code">&lt;#ff4800&gt;Might&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;</div>
+    </div>
+    <div class="row">
+      <div class="cell">Perception</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-code">&lt;#ca58ff&gt;Perception&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;</div>
+    </div>
+    <div class="row">
+      <div class="cell">Resolve</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-code">&lt;#30d3d5&gt;Resolve&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;</div>
+    </div>
+  </div>
+</div>
+<div class="box-h2">
+  <h2>III. Keywords &amp; Tags</h2>
+</div>
+<!--CONSTITUTION STARTS HERE-->
+<div class="box"><img style="float: right; margin-right: -20px;" src="../images/attribute_constitution.png" width="36" height="36" alt=""/>
+  <div class="blackbox">
+    <h3><span style="color: #f7b733;">Constitution:</span> Inspirations</h3>
+  </div>
+  <div class="table-top">
+    <div class="row">
+      <div class="cell-40">Rank</div>
+      <div class="cell-30"></div>
+      <div class="cell-100">Keyword</div>
+      <div class="cell-arrow"></div>
+      <div class="cell-max">XML-tag</div>
+    </div>
+  </div>
+  <div class="table">
+    <div class="row">
+      <div class="cell-40-no-border">Ⅰ</div>
+      <div class="cell-30"></div>
+      <div class="cell-100-no-border">Fit</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-max-no-border">&amp;lt;#f7b733&amp;gt;Fit&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;</div>
+    </div>
+    <div class="row">
+      <div class="cell-40-no-border">Ⅱ</div>
+      <div class="cell-30"></div>
+      <div class="cell">Hardy</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-code">&amp;lt;#f7b733&amp;gt;Hardy&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;</div>
+    </div>
+    <div class="row">
+      <div class="cell-40-no-border">Ⅲ</div>
+      <div class="cell-30"></div>
+      <div class="cell">Robust</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-code">&amp;lt;#f7b733&amp;gt;Robust&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;</div>
+    </div>
+  </div>
+  <br>
+  <div class="blackbox">
+    <h3><span style="color: #f7b733;">Constitution:</span> Afflictions</h3>
+  </div>
+  <div class="table-top">
+    <div class="row">
+      <div class="cell-40">Rank</div>
+      <div class="cell-30"></div>
+      <div class="cell-100">Keyword</div>
+      <div class="cell-arrow"></div>
+      <div class="cell-max">XML-tag</div>
+    </div>
+  </div>
+  <div class="collapsible">
+    <div class="table">
+      <div class="row">
+        <div class="cell-40-no-border">Ⅰ</div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border">Sickened</div>
+        <div class="cell-arrow">&rarr;</div>
+        <div class="cell-max-no-border">&amp;lt;#f7b733&amp;gt;Sickened&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="table">
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><i class="material-icons"> subdirectory_arrow_right</i>Sickening</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#f7b733&amp;gt;Sickening&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;</div>
+      </div>
+    </div>
+  </div>
+  <div class="collapsible">
+    <div class="table">
+      <div class="row">
+        <div class="cell-40-no-border">Ⅱ</div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border">Weaken</div>
+        <div class="cell-arrow">&rarr;</div>
+        <div class="cell-max-no-border">&amp;lt;#f7b733&amp;gt;Weaken&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="table">
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><em class="material-icons"> subdirectory_arrow_right</em>Weakens</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#f7b733&amp;gt;Weakens&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;</div>
+      </div>
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><i class="material-icons"> subdirectory_arrow_right</i>Weakened</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#f7b733&amp;gt;Weakened&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;</div>
+      </div>
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><i class="material-icons"> subdirectory_arrow_right</i>Weakening</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#f7b733&amp;gt;Weakening&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;</div>
+      </div>
+    </div>
+  </div>
+  <div class="table">
+    <div class="row">
+      <div class="cell-40-no-border">Ⅲ</div>
+      <div class="cell-30"></div>
+      <div class="cell-100-no-border">Enfeebled</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-max-no-border">&amp;lt;#f7b733&amp;gt;Enfeebled&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;</div>
+    </div>
+  </div>
+</div>
+<!--CONSTITUTION ENDS HERE--> 
+
+<!--DEXTERITY STARTS HERE-->
+<div class="box"><img style="float: right; margin-right: -20px;" src="../images/attribute_dexterity.png" width="36" height="36" alt=""/>
+  <div class="blackbox">
+    <h3><span style="color: #72da26;">Dexterity:</span> Inspirations</h3>
+  </div>
+  <div class="table-top">
+    <div class="row">
+      <div class="cell-40">Rank</div>
+      <div class="cell-30"></div>
+      <div class="cell-100">Keyword</div>
+      <div class="cell-arrow"></div>
+      <div class="cell-max">XML-tag</div>
+    </div>
+  </div>
+  <div class="table">
+    <div class="row">
+      <div class="cell-40-no-border">Ⅰ</div>
+      <div class="cell-30"></div>
+      <div class="cell-100-no-border">Quick</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Quick&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;</div>
+    </div>
+    <div class="row">
+      <div class="cell-40-no-border">Ⅱ</div>
+      <div class="cell-30"></div>
+      <div class="cell">Nimble</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-code">&amp;lt;#72da26&amp;gt;Nimble&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;</div>
+    </div>
+    <div class="row">
+      <div class="cell-40-no-border">Ⅲ</div>
+      <div class="cell-30"></div>
+      <div class="cell">Swift</div>
+      <div class="cell-arrow">&rarr;</div>
+      <div class="cell-code">&amp;lt;#72da26&amp;gt;Swift&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;</div>
+    </div>
+  </div>
+  <br>
+  <div class="blackbox">
+    <h3><span style="color: #72da26;">Dexterity:</span> Afflictions</h3>
+  </div>
+  <div class="table-top">
+    <div class="row">
+      <div class="cell-40">Rank</div>
+      <div class="cell-30"></div>
+      <div class="cell-100">Keyword</div>
+      <div class="cell-arrow"></div>
+      <div class="cell-max">XML-tag</div>
+    </div>
+  </div>
+  <div class="collapsible">
+    <div class="table">
+      <div class="row">
+        <div class="cell-40-no-border">Ⅰ</div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border">Hobble</div>
+        <div class="cell-arrow">&rarr;</div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Hobble&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="table">
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><i class="material-icons"> subdirectory_arrow_right</i>Hobbled</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Hobbled&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;</div>
+      </div>
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><i class="material-icons"> subdirectory_arrow_right</i>Hobbles</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Hobbles&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;</div>
+      </div>
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><i class="material-icons"> subdirectory_arrow_right</i>Hobbling</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Hobbling&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;</div>
+      </div>
+    </div>
+  </div>
+  <div class="collapsible">
+    <div class="table">
+      <div class="row">
+        <div class="cell-40-no-border">Ⅱ</div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border">Immobilize</div>
+        <div class="cell-arrow">&rarr;</div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Immobilize&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="table">
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><em class="material-icons"> subdirectory_arrow_right</em>Immobilized</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Immobilized&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;</div>
+      </div>
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><i class="material-icons"> subdirectory_arrow_right</i>Immobilizing</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Immobilizing&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;</div>
+      </div>
+    </div>
+  </div>
+  <div class="collapsible">
+    <div class="table">
+      <div class="row">
+        <div class="cell-40-no-border">Ⅲ</div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border">Paralyze</div>
+        <div class="cell-arrow">&rarr;</div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Paralyze&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="table">
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><em class="material-icons"> subdirectory_arrow_right</em>Paralyzed</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Paralyzed&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;</div>
+      </div>
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><i class="material-icons"> subdirectory_arrow_right</i>Paralyzes</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Paralyzes&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;</div>
+      </div>
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><i class="material-icons"> subdirectory_arrow_right</i>Paralyzing</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Paralyzing&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;</div>
+      </div>
+      <div class="row-extra">
+        <div class="cell-40-no-border"></div>
+        <div class="cell-30"></div>
+        <div class="cell-100-no-border-small"><i class="material-icons"> subdirectory_arrow_right</i>Paralyzation</div>
+        <div class="cell-arrow"></div>
+        <div class="cell-max-no-border">&amp;lt;#72da26&amp;gt;Paralyzation&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--DEXTERITY ENDS HERE--> 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>

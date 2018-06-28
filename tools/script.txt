@@ -1,0 +1,157 @@
+# Your init script
+#
+# Atom will evaluate this file each time a new window is opened. It is run
+# after packages are loaded/activated and after the previous editor state
+# has been restored.
+#
+# An example hack to log to the console when each text editor is saved.
+#
+# atom.workspace.observeTextEditors (editor) ->
+#   editor.onDidSave ->
+#     console.log "Saved! #{editor.getPath()}"
+
+# coffeelint: disbable=max_line_length
+
+customHighlights = (editor) ->
+
+# CONSTITUTION STARTS
+
+  editor.scan /(\b(Constitution|Fit|Hardy|Robust)\b|((Sicken)(\b|ed|ing))|((Weaken)(\b|s|ed|ing))|((Enfeebl)(\b|ed)))/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_constitution"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+# CONSTITUTION ENDS
+
+# RESOLVE STARTS
+
+  editor.scan /(\b(Resolve|Steadfast|Resolute|Courageous)\b|((Shaken)(\b|s|ed|ing))|((Frighten)(\b|s|ed|ing))|((Terrif)(\b|ies|ied|ying|y)))/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_resolve"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+# RESOLVE ENDS
+
+# DEXTERITY STARTS
+
+  editor.scan /(\b(Dexterity|Quick|Nimble|Swift)\b|((Hobbl)(|ed|es|e|ing)\b)|((Immobiliz)(|ed|e|ing)\b)|((Paralyz)(|ed|es|e|ing|ation))\b)/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_dexterity"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+# DEXTERITY ENDS
+
+# INTELLECT STARTS
+
+  editor.scan /(\b(Intellect|Smart|Acute|Brilliant)\b|((Confus)(\b|ed|es|e|ing))|((Charm)(\b|ed|ing))|((Dominat)(\b|ed|es|e|ing)))/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_intellect"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+# INTELLECT ENDS
+
+# MIGHT STARTS
+
+  editor.scan /(\b(Might|Strong|Tenacious|Energized)\b|((Stagger)(\b|ed|ing))|((Daz)(\b|ed|es|e|ing))|((Stun)(\b|s|ned|ning))|(Stun))/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_might"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+# MIGHT ENDS
+
+# PERCEPTION STARTS
+
+  editor.scan /(\b(Perception|Insightful|Aware|Intuitive)\b|((Distract)(\b|ed|s|ing))|((Disorient)(\b|ed|ing|ness))|(Blind)(\b|s|ed|ness|ing))/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_perception"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+# PERCEPTION ENDS
+
+# NUMBERS -- EN2
+
+  editor.scan /\b(2032|2423|2654|3856)\b/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_en2_numbers"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+# NUMBERS -- EN
+
+  editor.scan /\b(603|1962|1964|1967|1968|2896|2898|2900|2902)\b/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_en_numbers"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+# NUMBERS -- ITEMS
+
+  editor.scan /\b(3941|4261)\b/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_items"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+# PROTECTION TYPES
+
+  editor.scan /(\b(Deflection|Reflex|Reflexes|Fortitude|Willpower|Will)\b)/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_protection"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+# DAMAGE TYPES
+
+  editor.scan /((\b((Shock)(\b|ed|ing))|((Burn)(\b|s|ed|ing))|((Freez)(\b|es|ed|ing|e))|(Corrode)|(Corrosive)|((Slash)(\b|ing))|((Pierc)(\b|ing|es|e))|((Crush)(\b|ing|es))|(Raw)\b)(\s((d)|(D))amage|))/g, (result) ->
+    options = {
+      type: "text"
+      class: "syntax--keyword_damage"
+    }
+
+    marker = editor.markBufferRange result.range
+    decoration = editor.decorateMarker marker, options
+
+
+atom.workspace.observeTextEditors (editor) ->
+  customHighlights(editor)
+
+  editor.onDidStopChanging ->
+    customHighlights(editor)
+
+# coffeelint: enable=max_line_length

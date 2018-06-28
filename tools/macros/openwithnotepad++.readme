@@ -1,0 +1,44 @@
+________________________________________________________________________________________
+
+							Enhanced UI - Afflictions & Inspirations
+
+							  ### NOTEPAD++ COMPATIBILITY MACRO ###
+
+			     					Author: 	Spherikal
+
+________________________________________________________________________________________
+
+## SPECIAL THANKS:
+
+This macro wouldn't have been possible for me to make without user @fireundubh help.
+
+________________________________________________________________________________________
+
+## SETUP GUIDE
+
+To use this macro you need to do the following:
+
+1. 	Download and install Notepad++ (https://notepad-plus-plus.org/download/v7.5.6.html)
+2. 	Go to C:\Users\[current user]\AppData\Roaming\Notepad++\
+3.	Make a back-up copy of the "shortcut.xml"-file located in the "Notepad++"-folder.
+3. 	Copy the "shortcuts.xml"-file from the .7z-file to the "Notepad++"-folder.
+
+		### IMPORTANT NOTICE!! ###
+		Doing this will override any saved macros/shortcuts you have in Notepad++ so
+		please make sure you have made a backup copy of your current "shortcut.xml"-file.
+
+4.	Start Notepad++.
+5.	Open the .stringtable-file you want to edit.
+6.	Go to the 'Macro' menu in the top toolbar.
+7.	Click on the macros in the following order:
+		a.) RegEx-Inspirations
+		b.) RexEx-Afflictions
+		c.) RexEx-Grouped-Afflictions-and-Inspirations
+8.	Save your .stringtable-file.
+---
+9.	Congrats! You're all done!
+
+Feel free to improve upon the macro I've made. I have little to no experience using
+RegEx so chances are fairly high that I've made some mistakes.
+
+________________________________________________________________________________________

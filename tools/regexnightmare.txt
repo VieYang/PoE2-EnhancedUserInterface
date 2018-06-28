@@ -1,0 +1,43 @@
+(\s+<Entry>\s+<ID>.*?<\/ID>(?!((Constitution|Fit|Hardy|Robust)\b|(Sicken)(\b|ed|ing)\b|(Weaken)(\b|s|ed|ing)\b|(Enfeebled)\b|(Resolve|Steadfast|Resolute|Courageous)\b|(Shaken)(\b|s|ed|ing)\b|(Frighten)(\b|s|ed|ing)\b|(Terrif)(ies|ied|ying|y)\b|(Dexterity|Quick|Nimble|Swift)\b|(Hobbl)(|ed|es|e|ing)\b|(Immobiliz)(|ed|e|ing)\b|(Paralyz)(|ed|es|e|ing|ation)\b|(Might|Strong|Tenacious|Energized)\b|(Stagger)(\b|ed|ing)\b|(Daz)(ed|es|e|ing)\b|(Stun)(\b|s|ned|ning)\b|(Intellect|Smart|Acute|Brilliant)\b|(Confus)(ed|es|e|ing)\b|(Charm)(\b|ed|ing)\|(Dominat)(ed|es|e|ing)\b|(Perception|Insightful|Aware|Intuitive)\b|(Distract)(\b|ed|s|ing)\b|(Disorient)(\b|ed|s|ing)\b|(Blind)(\b|s|ed|ing|ness)\b|(Deflection|Reflex|Reflexes|Fortitude|Willpower|Will|Penetrate|AR)\b|(Shock)(\b|ed|s|ing)\b|(Burn)(\b|ed|ing|s)\b|(Freez)(es|ed|e|ing)\b|(Corro)(des|de|sive)\b|(Slash)(\b|ing)\b|(Pierce)(\b|es|ing)\b|(Crush)(\b|es|ing)\b|(Raw)\b|\b(Mind Afflictions)\b|\b(Body Afflictions)\b)[\S\s])+?<\/Entry>)
+
+
+
+(?!
+
+((Constitution|Fit|Hardy|Robust)\b|
+(Sicken)(\b|ed|ing)\b|
+(Weaken)(\b|s|ed|ing)\b|
+(Enfeebled)\b|
+(Resolve|Steadfast|Resolute|Courageous)\b|
+(Shaken)(\b|s|ed|ing)\b|
+(Frighten)(\b|s|ed|ing)\b|
+(Terrif)(ies|ied|ying|y)\b|
+(Dexterity|Quick|Nimble|Swift)\b|
+(Hobbl)(|ed|es|e|ing)\b|
+(Immobiliz)(|ed|e|ing)\b|
+(Paralyz)(|ed|es|e|ing|ation)\b|
+(Might|Strong|Tenacious|Energized)\b|
+(Stagger)(\b|ed|ing)\b|
+(Daz)(ed|es|e|ing)\b|
+(Stun)(\b|s|ned|ning)\b|
+(Intellect|Smart|Acute|Brilliant)\b|
+(Confus)(ed|es|e|ing)\b|
+(Charm)(\b|ed|ing)\|
+(Dominat)(ed|es|e|ing)\b|
+(Perception|Insightful|Aware|Intuitive)\b|
+(Distract)(\b|ed|s|ing)\b|
+(Disorient)(\b|ed|s|ing)\b|
+(Blind)(\b|s|ed|ing|ness)\b|
+(Deflection|Reflex|Reflexes|Fortitude|Willpower|Will|Penetrate|AR)\b|
+(Shock)(\b|ed|s|ing)\b|
+(Burn)(\b|ed|ing|s)\b|
+(Freez)(es|ed|e|ing)\b|
+(Corro)(des|de|sive)\b|
+(Slash)(\b|ing)\b|
+(Pierce)(\b|es|ing)\b|
+(Crush)(\b|es|ing)\b|
+(Raw)\b|
+\b(Mind Afflictions)\b|
+\b(Body Afflictions)\b)
+
+)
