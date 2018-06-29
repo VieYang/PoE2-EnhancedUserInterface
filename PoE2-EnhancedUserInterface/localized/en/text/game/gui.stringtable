@@ -32,12 +32,12 @@
     </Entry>
     <Entry>
       <ID>391</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;#69F0AE&gt;{0} reputation gained&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#4bb782&gt;{0} reputation gained&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>392</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;#FF3535&gt;{0} reputation lost&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#bf2a2a&gt;{0} reputation lost&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
