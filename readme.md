@@ -5,7 +5,7 @@
 ## Useful links:
 - [Modding Documentation](http://eternity.obsidian.net/game-data-formats/concepts)
 - [TextMesh Pro Documentation](http://digitalnativestudios.com/textmeshpro/docs/rich-text/)
-- [Mod Changelog - v. 0.6.1](https://github.com/Spherikal/PoE2-EnhancedUserInterface/blob/master/changelog.md)
+- [Mod Changelog - v. 0.6.1-beta.2](https://github.com/Spherikal/PoE2-EnhancedUserInterface/blob/master/changelog.md)
 
 ## Installation
 
