@@ -11,7 +11,8 @@
 
 1. Download the latest mod version by [clicking here](https://github.com/Spherikal/PoE2-EnhancedUserInterface/releases).
 2. Extract the `PoE2-EnhancedUserInterface` folder into your `override` folder (located in `\Pillars of Eternity II\PillarsOfEternityII_Data\` directory).
-3. All done, you can now launch the game!
+
+That's it! You're all done and can now safely launch the game!
 
 ## Latest news:
 ### A big mod update (and a new game patch)!
