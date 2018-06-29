@@ -317,7 +317,7 @@
     </Entry>
     <Entry>
       <ID>435</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a bitter surge of ice and &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;freezing&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; cold air, inflicting &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; damage on anyone caught in the conical area of effect.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a bitter surge of ice and freezing cold air, inflicting &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; damage on anyone caught in the conical area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
