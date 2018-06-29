@@ -1,11 +1,17 @@
 #### Pillars of Eternity 2
 # Enhanced User Interface
+*The Enhanced User Interface mod aims to improve the standard user interface by highlighting gameplay mechanics such as afflictions and inspirations, damage and defense keywords and much more. In total around 970 ability, item or UI entries have been modified to enhance the user experience and to make some fairly opaque game mechanics a bit more transparent.*
 
-[Changelog - v. 0.6.1](https://github.com/Spherikal/PoE2-EnhancedUserInterface/blob/master/changelog.md)
+## Useful links:
+- [Modding Documentation](http://eternity.obsidian.net/game-data-formats/concepts)
+- [TextMesh Pro Documentation](http://digitalnativestudios.com/textmeshpro/docs/rich-text/)
+- [Mod Changelog - v. 0.6.1](https://github.com/Spherikal/PoE2-EnhancedUserInterface/blob/master/changelog.md)
 
-## What does this mod do?
+## Installation
 
-This mod aims to improve the standard user interface by highlighting gameplay mechanics such as afflictions and inspirations, damage and defense keywords and much more. In total close to 900 ability, item or UI entries have been modified to enhance the user experience and to make some fairly opaque game mechanics a bit more transparent.
+1. Download the latest mod version by [clicking here](https://github.com/Spherikal/PoE2-EnhancedUserInterface/releases).
+2. Extract the `PoE2-EnhancedUserInterface` folder into your `override` folder (located in `\Pillars of Eternity II\PillarsOfEternityII_Data\` directory).
+3. All done, you can now launch the game!
 
 ## Latest news:
 ### A big mod update (and a new game patch)!
