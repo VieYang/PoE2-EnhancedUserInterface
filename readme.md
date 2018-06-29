@@ -34,7 +34,7 @@ Anyway, I squished a few bugs and added a few missing features to the mod which 
 - Added missing `line-height` tags (statuseffects.stringtable).
 - Fixed a few incorrectly applied font stylizations (statuseffects.stringtable).
 
-Mod patch notes can always be found [here](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/beta/changelog.md#changelog).
+Mod patch notes can always be found [here](https://github.com/Spherikal/PoE2-EnhancedUserInterface/blob/master/changelog.md).
 
 ### Mod version 0.4 is released (and the mod changes name)
 **19th of June 2018**\
