@@ -11,31 +11,14 @@
 
 1. Download the latest mod version by [clicking here](https://github.com/Spherikal/PoE2-EnhancedUserInterface/releases).
 2. Extract the `PoE2-EnhancedUserInterface` folder into your `override` folder (located in `\Pillars of Eternity II\PillarsOfEternityII_Data\` directory).
-
-That's it! You're all done and can now safely launch the game!
+3. All done, you can now launch the game!
 
 ## Latest news:
 ### A big mod update (and a new game patch)!
 **28th of June 2018**\
 Obsidian Entertainment just released a beta version of the [1.2.0.0008](https://forums.obsidian.net/topic/103043-patch-120-updates-thread/) game build! There are a lot of cool new features that you should be really excited about, like the [modding documentation](https://eternity.obsidian.net/game-data-formats/concepts) or the fact that we now got a built-in mod manager!
 
-Anyway, I squished a few bugs and added a few missing features to the mod which can be read below:
-#### Changelog mod version 0.6.0:
-- Removed a duplicated `line-height` tag in ID `564` (abilities.stringtable).
-- Added the "Penetrate" keyword to 32 new entries (abilities.stringtable).
-- Added the keyword "Armor Rating" to 14 new entries (abilities.stringtable).
-- Removed ID incorrectly applied text stylization to ID `607`, `631`, `643`, `811`, `1573`, `1962`, `1964`, `1967`, `1968`, `2271`, `2896`, `2898`, `2900` and `2902` (abilities.stringtable).
-- Added missing keywords to ID's `614`, `831`, `925`, `2039`, `2663`, `2732`, `3923`, `4092`, `4166` and `4774` (abilities.stringtable).
-- The Might inspiration `Energized` should now have the correct color code (abilities.stringtable).
-- Fixed broken links to glossary entry `Terrified` (abilities.stringtable).
-- Added missing `line-height` tag in ID `679` (cyclopedia.stringtable).
-- Added support for the keywords `Armor Rating` and `Penetrate (cyclopedia.stringtable).
-- Added a lot of missing entries (gui.stringtable).
-- Added a few missing font tags to multiple entries (items.stringtable).
-- Added missing `line-height` tags (statuseffects.stringtable).
-- Fixed a few incorrectly applied font stylizations (statuseffects.stringtable).
-
-Mod patch notes can always be found [here](https://github.com/Spherikal/PoE2-EnhancedUserInterface/blob/master/changelog.md).
+Anyway, I squished a few bugs and added a few missing features to the mod, check out the [changelog](https://github.com/Spherikal/PoE2-EnhancedUserInterface/blob/master/changelog.md) for more information!
 
 ### Mod version 0.4 is released (and the mod changes name)
 **19th of June 2018**\
