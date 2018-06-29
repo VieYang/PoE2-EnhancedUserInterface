@@ -1,7 +1,7 @@
 #### Pillars of Eternity 2
 # Enhanced User Interface
 
-[Changelog - v. 0.6.0](https://github.com/Spherikal/PoE2-EnhancedUserInterface/blob/master/changelog.md)
+[Changelog - v. 0.6.1](https://github.com/Spherikal/PoE2-EnhancedUserInterface/blob/master/changelog.md)
 
 ## What does this mod do?
 

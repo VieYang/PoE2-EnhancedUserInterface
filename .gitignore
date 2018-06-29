@@ -2,3 +2,8 @@
 *.sh
 tools/translation_helper/xsdv.sh
 *.7z
+_old_versions/
+_webb/
+images/
+PoE2-EnhancedUserInterface-Vanilla/
+tools/
