@@ -5,7 +5,7 @@
 ***
 
 **Important:**\
-This repository is only for the English version of the mod. If you're looking for the German, Italian or Russian version of the mod please [click here](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI).
+This repository is only for the **English** version of the mod. If you're looking for the **German**, **Italian** or **Russian** version please [click here](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI).
 
 ***
 
