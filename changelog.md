@@ -1,4 +1,14 @@
 ## CHANGELOG
+### Version 0.7.1
+- ~~Updated to the correct it version.~~
+
+### Version 0.7
+- ~~Added Damage Types for de_patch.~~
+- ~~Added Defense Icons for de_patch.~~
+- ~~Included ru.~~
+- ~~Updated it.~~
+- Fixed a few en entries.
+
 ### 0.6.1-beta.2
 - Changed the color of reputation gains and losses to a slightly darker hue.
 - Added a missing keyword to ID `2843` (Minoletta's Missile Salvo).
