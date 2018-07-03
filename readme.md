@@ -2,6 +2,13 @@
 # Enhanced User Interface
 *The Enhanced User Interface mod aims to improve the standard user interface by highlighting gameplay mechanics such as afflictions and inspirations, damage and defense keywords and much more. In total around 970 ability, item or UI entries have been modified to enhance the user experience and to make some fairly opaque game mechanics a bit more transparent.*
 
+***
+
+**Important:**\
+This repository is only for the English version of the mod. If you're looking for the German, Italian or Russian version of the mod please [click here](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI).
+
+***
+
 ## Useful links:
 - [Modding Documentation](http://eternity.obsidian.net/game-data-formats/concepts)
 - [TextMesh Pro Documentation](http://digitalnativestudios.com/textmeshpro/docs/rich-text/)
